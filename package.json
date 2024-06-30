@@ -24,7 +24,8 @@
     "remark-gfm": "3.0.1",
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "next-mdx-remote": "^5.0.0"
   },
   "devDependencies": {
     "@opentelemetry/api": "1.4.1",
