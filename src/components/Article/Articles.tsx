@@ -1,4 +1,3 @@
-import React from 'react'
 import { getAllPosts } from '../../app/lib/mdx'
 import Link from 'next/link';
 import Image from 'next/image';
@@ -25,7 +24,7 @@ const Articles = async() => {
                     <div className='ml-4'>
                         <h2 className='font-semibold'>{
                         post.frontMatter.title}</h2>
-                        <p className='text-sm'>{post.frontMatter.excerpt}</p>
+                        <p className='text-sm text-wrap'>{post.frontMatter.excerpt}</p>
                     </div>
                     </div>
                 </Link>

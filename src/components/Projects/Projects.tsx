@@ -80,7 +80,7 @@ import Image from 'next/image';
 import projectcss from './Project.module.css';
 import { Card } from '../card';
 
-const Projects: React.FC = () => {
+const  Projects: React.FC = () => {
 
   function LightMove(e: React.MouseEvent<HTMLDivElement>) {
     const target = e.currentTarget as HTMLElement;
